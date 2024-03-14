@@ -1,0 +1,30 @@
+# Seribu-1-cara-kegagalan-di-github
+Melihat error,fatal dan warning. Warna merah :). Kalo masih gagal dahlah.
+
+
+>>>>> 1. simulasi perancangan tugas besar dalam aplikasi manajemen proyek seperti trello dan github. <<<<<
+
+cd d:
+git config
+git remote add https://github.com/SaptaAjiSadewo/proyek1.git
+fatal --##--##--
+git init proyek1
+fatal --##--##--
+git remote add origin
+fatal --##--##--
+cd proyek1
+git remote add origin https://github.com/SaptaAjiSadewo/proyek1.git
+git pull origin master
+fatal coundt find remote ref master --##--##
+git branch -M main
+
+>>>>> 2. bikin file baru <<<<<
+
+cd d:
+cd proyek1
+git log
+git remote add origin link url
+git push -u origin main
+git fetch origin main:tmp
+git rebase tmp
+git push origin HEAD:main
